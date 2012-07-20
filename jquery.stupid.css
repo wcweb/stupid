@@ -1,0 +1,31 @@
+.little_boy_family{
+  position:relative;
+  margin:10px;
+  margin-bottom:30px;
+}
+.little_boy_house{
+  position:absolute;
+  margin:5px;
+  z-index:100;
+}
+.little_boy{
+  position:absolute;
+  margin:10px;
+  text-align:center;
+}
+.LB-axises{
+  position:relative;
+  z-index:10;
+}
+.LB-x-axise ,.LB-y-axise{
+  position:relative;
+}
+.LB-x-axise{
+}
+.LB-y-axise{
+}
+.LB-x-axise label,.LB-y-axise label{
+  position:absolute;
+  text-align:center;
+  display:inline-block; /*fix firefox position relative bug*/
+}
