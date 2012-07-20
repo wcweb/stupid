@@ -1,7 +1,7 @@
 stupid
 ======
 
-jquery plugin for determine what  (s,t)  happend  in some durationsof the video with player( jwplayer).
+jquery plugin for determine what  (s,t)  happen in some durations of the video with player( jwplayer).
 <p> this plugin is only use for student-teacher behave analysis.</p>
 
  >  ```  <script>
