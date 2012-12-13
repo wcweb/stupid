@@ -13,7 +13,7 @@
 
   $.fn.stupid = function(settings,iplayer){
       if(settings){
-        $.fn.stupid.settings=$.extend($.fn.stupid.settings, settings);
+        $.fn.stupid.settings=$.extend($.fn.stupid.defaults, settings);
       }
       return this.each(function(){
         $.fn.stupid.init($(this),$.fn.stupid.settings);
@@ -26,7 +26,7 @@
       unique = false;
   st.settings ={};
   st.grid = [];
-  st.settings = {
+  st.defaults = {
     x_axise:[1,2,3,4,5,6,7,8],
     y_axise:[1,2,3,4,5,6,7,8],
 	  blur:undefined,
