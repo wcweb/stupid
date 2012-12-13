@@ -29,7 +29,7 @@
   st.settings = {
     x_axise:[1,2,3,4,5,6,7,8],
     y_axise:[1,2,3,4,5,6,7,8],
-	  blurFunc:undefined,
+	  blur:undefined,
     //todo data.row,data.colum
     data:[],
 	  dtime:[],
@@ -244,8 +244,8 @@
         window.clearInterval(itid);
       }
 
-		if(st.settings.blurFunc!==undefined){
-				st.settings.blurFunc.apply(item,item);			
+		if(st.settings.blur!==undefined){
+				st.settings.blur.apply(item,item);			
 		}
     });
 
