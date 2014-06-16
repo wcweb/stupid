@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>instruction behavior analyser. Test Suite</title>
+  <!-- Load local jQuery. -->
+  <script src="../bower_components/jquery/jquery.js"></script>
+  <!-- Load local D3. -->
+  <script src="../bower_components/d3/d3.js"></script>
+  <link href="../test/d3.css" rel="stylesheet" type="text/css">
+  <!-- Load local RSVP. -->
+  <script src="../bower_components/rsvp/rsvp.js"></script>
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" media="screen">
+  <script src="../bower_components/qunit/qunit/qunit.js"></script>
+  <!-- Load local lib and tests. -->
+  <script src="../src/stupid.js"></script>
+  <script src="stupid_test.js"></script>
+  <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+       you REALLY want to mess around with jQuery in the console. REMEMBER WE
+       ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+  <script>window._$ = jQuery.noConflict(true);</script>
+    <!-- / Stylesheets -->
+  <link href="../src/stupid.css" rel="stylesheet" type="text/css">
+  <style>
+    #st_wraper{
+      width:700px;
+      height:520px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <h1>Jquery.Stupid test page</h1>
+      <section>
+         <div id="st_wraper"></div>
+      </section>
+    </div>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <span>lame test markup</span>
+    <span>normal test markup</span>
+    <span>awesome test markup</span>
+  </div>
+  <!--<script src="d3_test.js"></script>-->
+  <script src="d3_graphy.js"></script>
+</body>
+</html>

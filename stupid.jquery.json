@@ -1,0 +1,28 @@
+{
+  "name": "stupid",
+  "title": "instruction behavior analyser.",
+  "description": "Instruction behavior analyser.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wcweb/stupid",
+  "author": {
+    "name": "Ian.Chanry",
+    "url": "https://github.com/wcweb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wcweb/stupid.git"
+  },
+  "bugs": "https://github.com/wcweb/stupid",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.9"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}
