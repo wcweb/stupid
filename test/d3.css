@@ -1,5 +1,9 @@
 text {
   font: 12px monospace;
+  text-align:center;
+}
+rect{
+  fill:#f2feac;
 }
 
 .enter{

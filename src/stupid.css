@@ -41,8 +41,81 @@
 
 .grid{
   position:absolute;
-  width:20px;
-  height:20px;
   display:block;
-  color:#333;
+  fill:#DFE7B3;
+}
+
+.grid text{
+  fill:#333;
+  line-height:20px;
+}
+.grid_background{
+    
+}
+.selections_panels{
+  position:relative;
+}
+
+.selections_panels .active{
+  background:#eee;
+  z-index:11;
+}
+.selections_panels .active .selection_icon{
+  z-index:11;
+  background:#eee;
+}
+.selection_panel{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  width:40px;
+  height:40px;
+  margin: 0 5px 0 0;
+}
+.selection_panel .selection_icon{
+  position:relative;
+  width: 40px;
+  height: 40px;
+  background: #C54B4B;
+  display: block;
+  text-align: center;
+  /* vertical-align: middle; */
+  line-height: 40px;
+  z-index:10;
+}
+
+
+.selection_panel .mask {
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:40px;
+  line-height:40px;
+  background: #542342;
+}
+.selection_panel .options,
+.selection_panel .buttons{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  float:right;
+}
+.hide{
+  display:none;
+}
+
+rect.grid_m{
+    fill:#B78a8C;
+}
+
+rect.grid_t{
+    fill:#B78CE2;
+}
+
+rect.grid_s{
+    fill:#8CB7E2;
+}
+rect.grid_background{
+    fill:#333;
 }
